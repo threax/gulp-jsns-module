@@ -1,7 +1,11 @@
 {
   "name": "gulp-jsns-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "Andrew Piper",
   "private": false,
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
 
   },
