@@ -1,15 +1,6 @@
 ﻿var gulp = require("gulp"),
-    rimraf = require("rimraf"),
     concat = require("gulp-concat"),
-    cssmin = require("gulp-cssmin"),
-    uglify = require("gulp-uglify"),
-    rename = require("gulp-rename"),
     sourcemaps = require("gulp-sourcemaps");
-var less = require('gulp-less');
-var path = require('path');
-var uglifycss = require('gulp-uglifycss');
-var gutil = require('gulp-util');
-var plumber = require('gulp-plumber');
 var injectString = require('gulp-inject-string');
 
 //Moduleify
